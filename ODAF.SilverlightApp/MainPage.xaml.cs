@@ -49,7 +49,7 @@ namespace ODAF.SilverlightApp
 
 			BirdseyeMode.AddModeToNavigationBar(OpenDataMap);
 
-			txtTitle.Text = ((App)Application.Current).appName;
+			//txtTitle.Text = ((App)Application.Current).appName;
 			Uri baseUri = new Uri(((App)Application.Current).pageRootUrl);
 			BaseURL = ((App)Application.Current).pageRootUrl;
 			Service = new ServiceController(BaseURL);

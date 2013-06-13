@@ -94,13 +94,13 @@
       <HintPath>..\packages\ODAF-ODAF.SilverlightApp-Dependencies.1.0\lib\Microsoft.Expression.Interactions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.MapControl">
-      <HintPath>..\packages\ODAF-ODAF.SilverlightApp-Dependencies.1.0\lib\Microsoft.Maps.MapControl.dll</HintPath>
+      <HintPath>..\Dependencies\Bing Maps\Microsoft.Maps.MapControl.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.MapControl.Common">
-      <HintPath>..\packages\ODAF-ODAF.SilverlightApp-Dependencies.1.0\lib\Microsoft.Maps.MapControl.Common.dll</HintPath>
+      <HintPath>..\Dependencies\Bing Maps\Microsoft.Maps.MapControl.Common.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.MapControl.ExtendedModes">
-      <HintPath>..\packages\ODAF-ODAF.SilverlightApp-Dependencies.1.0\lib\Microsoft.Maps.MapControl.ExtendedModes.dll</HintPath>
+      <HintPath>..\Dependencies\Bing Maps\Microsoft.Maps.MapControl.ExtendedModes.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Windows.Controls.WatermarkedTextBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\Dependencies\Microsoft\Microsoft.Windows.Controls.WatermarkedTextBox.dll</HintPath>
@@ -408,6 +408,8 @@
     <Resource Include="Images\searchIcon.png" />
     <Resource Include="Images\dropDown.png" />
     <Resource Include="Images\github.png" />
+    <Resource Include="Images\opendata_en.png" />
+    <Resource Include="Images\opendata_fr.png" />
     <Content Include="Service References\ServiceReferences.ClientConfig" />
     <None Include="Service References\VEGeoSearchService\configuration91.svcinfo" />
     <None Include="Service References\VEGeoSearchService\configuration.svcinfo" />
