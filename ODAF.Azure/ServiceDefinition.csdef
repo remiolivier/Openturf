@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServiceDefinition name="ODAF.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+<ServiceDefinition name="ODAF.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2013-03.2.0">
   <WebRole name="ODAF.Website.Mvc" vmsize="ExtraSmall">
     <Sites>
       <Site name="Web">
@@ -26,8 +26,7 @@
     </Endpoints>
   </WebRole>
   <WorkerRole name="ODAF.SearchIndexRole" vmsize="ExtraSmall">
-    <Imports>
-    </Imports>
+    <Imports></Imports>
     <ConfigurationSettings>
       <Setting name="BlobStorageEndpoint" />
       <Setting name="DiagnosticsConnectionString" />
